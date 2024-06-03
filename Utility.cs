@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 public static class Utility
 {
     
-    public static string MyConnectionString { get; } = "server=127.0.0.1;uid=root;pwd=123456;database=save_it_finances";
+    public static string MyConnectionString { get; } = "server=127.0.0.1;uid=root;pwd=your_password;database=save_it_finances";
 
     public static void CacheUserData(object data, string filename = "ErrorLog.txt")
     {
